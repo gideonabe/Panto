@@ -1,9 +1,11 @@
-import Image from "next/image";
+import Hero from "@/components/Hero";
+import Whychoose from "@/components/whychoose";
 
 export default function Home() {
   return (
     <div>
-      <p>Hi</p>
+      {/* <Hero /> */}
+      <Whychoose />
     </div>
   );
 }

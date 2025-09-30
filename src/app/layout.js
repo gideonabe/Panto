@@ -30,8 +30,8 @@ const gilroy = localFont({
 });
 
 export const metadata = {
-  title: 'My App',
-  description: 'Using Gilroy locally',
+  title: 'Panto',
+  description: 'Make your interior more minimalistic & modern',
 };
 
 export default function RootLayout({ children }) {

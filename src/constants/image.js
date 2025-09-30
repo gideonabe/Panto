@@ -13,8 +13,10 @@ import chair4 from '@/assets/chair4.png';
 import person1 from '@/assets/person1.png';
 import person2 from '@/assets/person2.png';
 import person3 from '@/assets/person3.png';
+import bag from '@/assets/Bag.png'
 
 const images = {
+  bag,
   bg,
   exp,
   material1,
