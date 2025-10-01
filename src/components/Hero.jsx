@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section 
       id='hero'
-      className="relative w-screen h-screen" 
+      className="relative w-full h-screen" 
     >
       <Image 
         src={images.bg}

@@ -25,14 +25,14 @@ const Whychoose = () => {
       <div className='grid grid-cols-1 md:grid-cols-4 gap-8'>
         {/* Column 1 */}
         <div className='col-span-1'>
-          <p className='text-black font-bold text-5xl'>Why Choosing Us</p>
+          <p className='text-black font-bold text-4xl items-center justify-center'>Why Choosing Us</p>
         </div>
 
         {/* Columns 2, 3, 4 - one per reason */}
         {reasons.map((why, i) => (
           <div key={i} className='flex flex-col space-y-2'>
             <h3 className='text-xl font-bold'>{why.head}</h3>
-            <p className='text-sm text-black'>{why.subhead}</p>
+            <p className='text-sm text-black/80'>{why.subhead}</p>
             <a href={why.url} className='flex items-center gap-2 text-orange hover:underline'>
               More info <MoveRight className='w-4 h-8' />
             </a>
