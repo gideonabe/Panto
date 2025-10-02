@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className='flex flex-wrap justify-between items-center w-full mt-2 md:mt-0 text-xs md:text-sm text-center'>
+        <div className='flex flex-wrap justify-between items-center w-full mb-2 md:mb-0 mt-2 md:mt-0 text-xs md:text-sm text-center'>
           <p className='font-light text-gray-400'>Copyright &copy; {new Date().getFullYear()}</p>
           <div className='flex gap-4'>
             <a href='/'>Terms & Conditions</a>
