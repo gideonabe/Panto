@@ -5,6 +5,7 @@ import TestimonialCard from './TestimonialCard'
 import { images } from '@/constants'
 import { MoveLeft, MoveRight } from 'lucide-react'
 
+
 const reviews = [
   {
     bgimg: images.review1,
