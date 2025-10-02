@@ -47,7 +47,8 @@ const reviews = [
     name: "Mpok Ina",
     comp: "Karyawan Swasta",
     sub: "“Sangat terjangkau untuk kantong saya yang tidak terlalu banyak“"
-  }, 
+  },
+  
 ]
 
 const Testimonials = () => {

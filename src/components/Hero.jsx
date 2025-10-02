@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section 
       id='/'
-      className="relative w-full h-screen" 
+      className="relative w-full h-[calc(100dvh-16px)]" 
     >
       <Image 
         src={images.bg}
@@ -30,15 +30,15 @@ const Hero = () => {
         // speeds up loading
       />
 
-      <div className="relative z-10">
+      <div className="relative z-10 h-full">
         <Navbar />
 
-        <div className="relative z-10 flex flex-col items-center justify-start text-white text-center w-full space-y-4 px-4 mt-10 md:mt-8">
+        <div className="relative z-10 flex flex-col items-center md:justify-start text-white text-center w-full space-y-4 px-4 h-full mt-32 md:mt-8">
           <p className="font-bold text-3xl md:text-[53px] leading-tight">Make Your Interior More <br />
             Minimalistic & Modern
           </p>
 
-          <p className="w-full max-w-[85%] md:max-w-[40%] text-base md:text-[22px] text-white/85 font-extralight leading-snug">
+          <p className="w-full max-w-[100%] md:max-w-[40%] text-base md:text-[22px] text-white/85 font-extralight leading-snug">
             Turn your room with panto into a lot more minimalist and modern with ease and speed
           </p> 
 
