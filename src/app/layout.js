@@ -12,8 +12,8 @@ export const metadata = {
   title: 'Panto',
   description: 'Make your interior more minimalistic & modern',
   icons: {
-    icon: "/sofa.png"
-  }
+    icon: '/sofa.png',
+  },
 };
 
 export default function RootLayout({ children }) {
