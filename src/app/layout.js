@@ -20,11 +20,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
+      {/* <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <link rel="icon" href="/sofa.png" />
-      </Head>
+      </Head> */}
       <body className={`${inter.variable} antialiased`}>
         {children}
         <Analytics />

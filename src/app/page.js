@@ -4,13 +4,13 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Materials from "@/components/Materials";
 import Testimonials from "@/components/Testimonials";
-import Whychoose from "@/components/whychoose";
+import WhyChoose from "@/components/WhyChoose";
 
 export default function Home() {
   return (
     <div className="space-y-12">
       <Hero />
-      <Whychoose />
+      <WhyChoose />
       <Bestselling />
       <Experience />
       <Materials />
