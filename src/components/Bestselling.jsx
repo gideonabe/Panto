@@ -260,10 +260,10 @@ const Bestselling = () => {
 
 
   return (
-    <section className='max-w-full p-6 bg-gray'>
+    <section id='products' className='max-w-full p-6 bg-gray'>
       <div className='max-w-[90%] mx-auto'>
         <p className='text-center font-bold text-4xl mb-4'>Bestselling</p>
-        <div className='max-w-[50%] mx-auto mb-4'>
+        <div className='w-full sm:w-[45%] md:w-[35%] mx-auto mb-4 md:mb-6'>
           <nav className='flex justify-between w-full px-2 py-2 rounded-full bg-gray-200'>
             {tabs.map((tab) => (
               <button

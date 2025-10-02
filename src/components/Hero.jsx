@@ -7,7 +7,7 @@ import { images } from '@/constants'
 const Hero = () => {
   return (
     <section 
-      id='hero'
+      id='/'
       className="relative w-full h-screen" 
     >
       <Image 

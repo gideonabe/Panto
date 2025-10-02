@@ -6,19 +6,21 @@ const ProductCard = ({image, label, name, price}) => {
   return (
     <div>
       <div className='w-full h-60 md:h-64 bg-white/40 rounded-t-xl p-2'>
-        {label === 'chair' ? 
+        {label === "Chair" ? 
           <Image 
             src={image}
             alt={name}
-            fill
+            width={0}
+            height={0}
             className='w-full h-full object-contain'
           /> :
           <Image 
             src={image}
             alt={name}
-            width={500}
-            height={500}
-            className='w-full h-full object-contain'
+            width={600}
+            height={0}
+            priority
+            className='w-full h-full object-cover rounded'
           />         
         }
       </div>

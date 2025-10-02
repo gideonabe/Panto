@@ -16,16 +16,16 @@ const reviews = [
   {
     bgimg: images.review2,
     img: images.person2,
-    name: "Bang Upin",
-    comp: "Pedagang Asongan",
-    sub: "“Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal“"
+    name: "Ibuk Sukijan",
+    comp: "Ibu Ruman Tangga",
+    sub: "“Makasih Panto, aku sekarang berasa tinggal di apartment karena barang-barang yang terlihat mewah“"
   },
   {
     bgimg: images.review3,
     img: images.person3,
-    name: "Bang Upin",
-    comp: "Pedagang Asongan",
-    sub: "“Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal“"
+    name: "Mpok Ina",
+    comp: "Karyawan Swasta",
+    sub: "“Sangat terjangkau untuk kantong saya yang tidak terlalu banyak“"
   },
   {
     bgimg: images.review1,
@@ -37,17 +37,17 @@ const reviews = [
   {
     bgimg: images.review2,
     img: images.person2,
-    name: "Bang Upin",
-    comp: "Pedagang Asongan",
-    sub: "“Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal“"
+    name: "Ibuk Sukijan",
+    comp: "Ibu Ruman Tangga",
+    sub: "“Makasih Panto, aku sekarang berasa tinggal di apartment karena barang-barang yang terlihat mewah“"
   },
   {
     bgimg: images.review3,
     img: images.person3,
-    name: "Bang Upin",
-    comp: "Pedagang Asongan",
-    sub: "“Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal“"
-  },
+    name: "Mpok Ina",
+    comp: "Karyawan Swasta",
+    sub: "“Sangat terjangkau untuk kantong saya yang tidak terlalu banyak“"
+  }, 
 ]
 
 const Testimonials = () => {
@@ -84,10 +84,10 @@ const Testimonials = () => {
   const visibleReviews = reviews.slice(currentIndex, currentIndex + visibleCount)
 
   return (
-    <section id='testimonial' className='max-w-[90%] mx-auto mt-8'>
+    <section id='testimonial' className='max-w-[90%] mx-auto'>
       <div className='text-center w-full'>
         <h3 className='text-xs md:text-sm font-medium text-orange'>TESTIMONIALS</h3>
-        <p className='text-xl md:text-2xl font-semibold'>Our Clients Reviews</p>
+        <p className='text-xl md:text-3xl mt-1 font-semibold'>Our Clients Reviews</p>
 
       </div>
 

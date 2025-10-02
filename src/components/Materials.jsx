@@ -5,7 +5,7 @@ import React from 'react'
 
 const Materials = () => {
   return (
-    <section id='material' className='max-w-full h-screen mt-8'>
+    <section id='material' className='max-w-full h-screen'>
       <div className='flex flex-col md:flex-row w-full gap-4 md:gap-2 md:h-full justify-center items-center'>
         <div className='md:flex-[50%] flex items-center md:items-start justify-center md:justify-start px-4 md:px-4 h-full w-full'>
           <div className='flex flex-col justify-center items-center md:items-start h-full gap-1 md:gap-4 text-center md:text-start md:w-[80%] mx-auto'>
@@ -15,8 +15,15 @@ const Materials = () => {
               Because panto was very serious about designing furniture for our environment, using a very expensive and famous capital but at a relatively low price
             </p>
 
-            <div className='w-full flex justify-center md:justify-start'>
-              <p className='flex items-center text-orange font-normal text-sm md:text-base'>View all <MoveRight className='w-10 h-5 text-orange'/></p>
+            <div className='w-full flex justify-center md:justify-start gap-2 items-center'>
+              <p className='text-orange'>View All</p>
+              <Image 
+                src={images.rightarrow}
+                alt='Redirect'
+                width={0}
+                height={0}
+                className='object-contain'
+              />
             </div>
           </div>
         </div>

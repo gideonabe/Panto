@@ -4,34 +4,36 @@ import React from 'react'
 
 const TestimonialCard = ({bgimg, img, name, comp, sub }) => {
   return (
-    <div className='relative w-full h-90'>
+    <div className='relative w-full h-90 md:h-120'>
       <Image 
         src={bgimg}
         alt='Interior'
         width={0}
         height={0}
-        className='w-full h-full'
+        className='w-full h-full object-contain'
       />
 
       <div className='absolute bottom-4'>
-        <div className='relative bg-white px-6 pb-4 flex flex-col items-center w-[90%] mx-auto rounded-2xl pt-10'>
+        <div className='relative bg-white px-6 pb-4 flex flex-col items-center w-[80%] mx-auto rounded-2xl pt-10'>
           <Image 
             src={img}
             alt={name}
-            width={50}
-            height={50}
-            className='absolute rounded-full -top-3 p-2 bg-white'
+            width={55}
+            height={55}
+            className='absolute rounded-full -top-5 p-2 bg-white object-cover'
           />
-          <p className='font-semibold text-sm md:text-base'>{name}</p>
-          <p className='font-extralight text-[10px] md:text-xs text-gray-500'>{comp}</p>
-          <p className='font-normal text-xs md:text-sm mt-3 text-center'>{sub}</p>
-          <div className="flex gap-0.5 mt-4">
-            {[...Array(5)].map((_, i) => (
-              <StarIcon
-                key={i}
-                className="w-3 h-3 text-yellow-500 fill-yellow-500 stroke-yellow-500"
-              />
-            ))}
+          <div className='flex flex-col w-full h-full items-center text-center'>
+            <p className='font-semibold text-sm md:text-lg'>{name}</p>
+            <p className='font-extralight text-[10px] md:text-sm text-gray-600'>{comp}</p>
+            <p className='font-normal text-xs md:text-base mt-3 text-center'>{sub}</p>
+            <div className="flex gap-0.5 mt-4">
+              {[...Array(5)].map((_, i) => (
+                <StarIcon
+                  key={i}
+                  className="w-3 md:w-4 h-3 md:h-4 text-yellow-500 fill-yellow-500 stroke-yellow-500"
+                />
+              ))}
+            </div>
           </div>
         </div>
         
