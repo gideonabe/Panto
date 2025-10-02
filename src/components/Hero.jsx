@@ -8,25 +8,23 @@ const Hero = () => {
   return (
     <section 
       id='/'
-      className="relative w-full h-[100dvh]" 
+      className="relative w-full h-screen" 
     >
       <Image 
         src={images.bg}
         alt="Background"
-        width={0}
-        height={0}
-        className="hidden md:block absolute inset-0 z-0 w-full h-full"
-        // priority 
+        fill
+        className="hidden md:block absolute object-cover object-center inset-0 z-0 w-full h-full"
+        priority 
         // speeds up loading
       />
 
       <Image 
         src={images.bg}
         alt="Background"
-        width={0}
-        height={0}
-        className="flex md:hidden object-cover absolute inset-0 z-0 w-full h-full"
-        // priority 
+        fill
+        className="md:hidden object-cover absolute inset-0 z-0 w-full h-full"
+        priority 
         // speeds up loading
       />
 
