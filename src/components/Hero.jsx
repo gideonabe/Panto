@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section 
       id='/'
-      className="relative w-full h-[calc(100dvh-18px)]  md:h-[calc(100dvh-16px)]" 
+      className="relative w-full h-[100dvh]" 
     >
       <Image 
         src={images.bg}
@@ -33,7 +33,7 @@ const Hero = () => {
       <div className="relative z-10 h-full">
         <Navbar />
 
-        <div className="relative z-10 flex flex-col items-center md:justify-start text-white text-center w-full space-y-4 px-4 h-full mt-32 md:mt-8">
+        <div className="relative z-10 flex flex-col items-center md:justify-start text-white text-center w-full space-y-4 px-4 h-[calc(100dvh-18px)]  md:h-[calc(100dvh-16px)] mt-32 md:mt-8">
           <p className="font-bold text-3xl md:text-[53px] leading-tight">Make Your Interior More <br />
             Minimalistic & Modern
           </p>
