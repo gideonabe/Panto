@@ -8,14 +8,14 @@ const Hero = () => {
   return (
     <section 
       id='/'
-      className="relative w-full h-[calc(100dvh-16px)]" 
+      className="relative w-full h-[calc(100dvh-18px)]  md:h-[calc(100dvh-16px)]" 
     >
       <Image 
         src={images.bg}
         alt="Background"
         width={0}
         height={0}
-        className="hidden md:block absolute z-0 w-full h-full"
+        className="hidden md:block absolute inset-0 z-0 w-full h-full"
         // priority 
         // speeds up loading
       />
@@ -25,7 +25,7 @@ const Hero = () => {
         alt="Background"
         width={0}
         height={0}
-        className="block md:hidden object-cover absolute z-0 w-full h-full"
+        className="flex md:hidden object-cover absolute inset-0 z-0 w-full h-full"
         // priority 
         // speeds up loading
       />
