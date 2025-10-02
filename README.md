@@ -4,6 +4,16 @@ Panto is a modern, responsive landing page for an interior design brand. It show
 
 > _Turn your room with Panto into a lot more minimalist and modern with ease and speed.
 
+## Demo Preview
+
+![Panto Hero Section](./public/panto.png)
+
+## Live Demo
+
+Check it out live here:  
+🔗 [https://panto-pied.vercel.app](https://panto-pied.vercel.app)
+
+
 ## Features
 
 - Fully responsive layout (mobile-first)
@@ -58,6 +68,3 @@ Submit a Pull Request
 📄 License
 
 This project is open source and available under the MIT License
-
-## Live Demo
-https://panto-pied.vercel.app/
