@@ -10,7 +10,7 @@ const Materials = () => {
         <div className='md:flex-[50%] flex items-center md:items-start justify-center md:justify-start px-4 md:px-4 h-full w-full'>
           <div className='flex flex-col justify-center items-center md:items-start h-full gap-1 md:gap-4 text-center md:text-start md:w-[80%] mx-auto'>
             <h3 className='font-medium text-sm md:text-xl text-orange'>MATERIALS</h3>
-            <h2 className='text-lg md:text-5xl font-semibold'>Very serious materials for making furniture</h2>
+            <h2 className='text-lg md:text-5xl font-semibold leading-tight'>Very serious materials for making furniture</h2>
             <p className='text-gray-600 font-light text-sm md:text-lg'>
               Because panto was very serious about designing furniture for our environment, using a very expensive and famous capital but at a relatively low price
             </p>

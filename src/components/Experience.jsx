@@ -33,7 +33,7 @@ const Experience = () => {
         <div className='flex-1 flex items-center px-4'>
           <div className='flex flex-col justify-center items-center md:items-start text-center md:text-start h-full gap-2 md:gap-4 md:px-10'>
             <h3 className='font-medium text-sm md:text-xl text-orange'>EXPERIENCES</h3>
-            <h2 className='text-lg md:text-5xl font-semibold'>We Provide You The Best Experience</h2>
+            <h2 className='text-lg md:text-5xl font-semibold leading-tight'>We Provide You The Best Experience</h2>
             <p className='text-gray-600 font-light text-sm md:text-lg'>
               You don't have to worry about the result because all of these interiors are made by people who are professionals in their fields with an elegant and lucurious style and with premium quality materials
             </p>
