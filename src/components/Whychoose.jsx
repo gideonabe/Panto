@@ -2,7 +2,7 @@ import { images } from '@/constants'
 import Image from 'next/image'
 import React from 'react'
 
-const Whychoose = () => {
+const WhyChoose = () => {
   const reasons = [
     {
       head: "Luxury facilities",
@@ -51,4 +51,4 @@ const Whychoose = () => {
   )
 }
 
-export default Whychoose
+export default WhyChoose
