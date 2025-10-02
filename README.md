@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Panto – Interior Design Landing Page
 
-## Getting Started
+Panto is a modern, responsive landing page for an interior design brand. It showcases minimalist furniture with a sleek, full-screen hero section, search functionality, and a clean UI built with React, Next.js, and Tailwind CSS.
 
-First, run the development server:
+> _Turn your room with Panto into a lot more minimalist and modern with ease and speed.
+
+## Features
+
+- Fully responsive layout (mobile-first)
+- Clean, minimalistic UI
+- Optimized background image using `next/image`
+- Light-themed design with modern accent colors
+- Search input with Lucide icon integration
+- Fast performance with server-side rendering
+
+---
+
+## Built With
+
+- [Next.js](https://nextjs.org/) – React framework for production
+- [React](https://reactjs.org/) – JavaScript UI library
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework
+- [Lucide Icons](https://lucide.dev/) – Icon library for clean SVG icons
+
+## 📦 Installation & Setup
 
 ```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/panto-landing-page.git
+cd panto-landing-page
+
+# 2. Install dependencies
+npm install
+
+# 3. Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 4. Open in your browser:
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+🤝 Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Pull requests are welcome! To contribute:
 
-## Learn More
+Fork the repository
 
-To learn more about Next.js, take a look at the following resources:
+Create a new branch: git checkout -b feature/YourFeature
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Make your changes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Commit: git commit -m 'Add your feature'
 
-## Deploy on Vercel
+Push: git push origin feature/YourFeature
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Submit a Pull Request
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+📄 License
+
+This project is open source and available under the MIT License
+
+## Live Demo
+https://panto-pied.vercel.app/
